@@ -1,0 +1,90 @@
+/* Titulos puras mayusculas */
+
+h1 {
+  font-size: 2rem;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+}
+
+p, span, input, option, .nav-link, label {
+  font-family:Helvetica;
+  font-size: 1rem;
+}
+
+.nav-link {
+  color: #Fb7d0c;
+}
+
+.nav-link:hover{
+  color: #Fb7d0c !important;
+}
+
+.nav-link.active:hover{
+  color: white !important;
+}
+
+.nav-link.active{
+  background-color: #Fb7d0c !important;
+}
+
+.t-enca {
+  background-color: #ff7030;
+  color: white;
+}
+
+.modal-header, .modal-footer {
+  background-color: red;
+  color: white;
+}
+
+.menu {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.content {
+  width: 80%;
+  margin-left: 40px;
+}
+
+.card-header {
+  background-color: #ff583d;
+  color: white;
+}
+
+h5 {
+  color:red;
+  margin-right: 5px;
+}
+
+span, input, select, .form-control {
+  height: 46px;
+}
+
+.doc { /* Solo en Documentación */
+  height: 38px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff7030;
+  color:white;
+  box-shadow: none;
+}
+
+.accordion-button {
+  color:#ff7030;
+  box-shadow: none;
+}
+
+td, th {
+  text-align: center;
+}
